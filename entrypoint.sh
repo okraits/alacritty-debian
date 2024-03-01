@@ -12,7 +12,7 @@ export DEBIAN_FRONTEND DEB_BUILD_OPTIONS
 
 dependencies() {
     apt update && apt install -y devscripts equivs git
-    if [ "$OS_VERSION" = 11 ]; then
+    if [ "$OS_VERSION" = 11 ] || [ "$OS_VERSION" = 12 ]; then
         apt install -y curl
         curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
         . ~/.cargo/env
