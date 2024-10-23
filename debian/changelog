@@ -1,3 +1,10 @@
+alacritty (0.14.0) unstable; urgency=medium
+
+  * New upstream release
+  * Switch to Debian Bookworm as the default Debian release
+
+ -- Oliver Kraitschy <oliver@okraits.de>  Wed, 23 Oct 2024 00:00:00 +0000
+
 alacritty (0.13.2) unstable; urgency=medium
 
   * New upstream release

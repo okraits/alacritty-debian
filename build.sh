@@ -2,9 +2,9 @@
 
 set -eu
 
-IMAGE="debian:bullseye-slim"
+IMAGE="debian:bookworm-slim"
 TARGET="$(dirname "$0" | xargs realpath)"
-VERSION="v0.13.2"
+VERSION="v0.14.0"
 
 while getopts "v:i:h" opt
 do
