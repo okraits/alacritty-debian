@@ -1,3 +1,9 @@
+alacritty (0.15.0) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Oliver Kraitschy <oliver@okraits.de>  Tue, 14 Jan 2025 00:00:00 +0000
+
 alacritty (0.14.0) unstable; urgency=medium
 
   * New upstream release
