@@ -9,12 +9,12 @@ If you have [Docker](https://www.docker.com/) installed locally, just run the fo
 ```bash
 user@hostname$ ./build.sh
 ```
-By default this will build alacritty v0.15.1 on Debian Bookworm.
+By default this will build alacritty v0.16.1 on Debian Bookworm.
 
 If you want to customize the build at runtime, use the following:
 
 ```bash
-user@hostname$ ./build.sh -i debian:unstable-slim -v 0.4.3
+user@hostname$ ./build.sh -i debian:unstable-slim -v 0.16.0
 ```
 Don't forget to update `debian/changelog` so your package is generated with the correct version.
 
